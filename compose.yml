@@ -6,7 +6,7 @@ services:
       dockerfile: chatbot/Dockerfile     
     ports:
       - "8001:8000"  # FastAPI
-      - "8502:8501"  # Streamlit
+      - "8503:8502"  # Streamlit
     volumes:
       - ./data:/app/data
       - ./chatbot:/app
